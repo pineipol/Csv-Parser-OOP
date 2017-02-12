@@ -1,0 +1,6 @@
+.idea
+.vagrant
+/src/Awesome/CsvParserOOP/Tests/Output/*
+!/src/Awesome/CsvParserOOP/Tests/Output/.gitkeep
+/vagrant_inventory.yml
+/vendor

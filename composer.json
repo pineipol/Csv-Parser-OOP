@@ -1,0 +1,16 @@
+{
+    "name": "awesome/csvparseroop",
+    "type": "project",
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "Awesome\\": "src/Awesome/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "require": {
+        "league/csv": "^8.2"
+    }
+}

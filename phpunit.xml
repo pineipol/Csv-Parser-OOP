@@ -1,0 +1,15 @@
+<phpunit colors="true" bootstrap="bootstrap.php" verbose="true">
+    <testsuites>
+        <testsuite name="CsvParserOOP">
+            <directory>src/Awesome/CsvParserOOP/Tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/Awesome/CsvParserOOP</directory>
+            <exclude>
+                <directory>.</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
